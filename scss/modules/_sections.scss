@@ -1,4 +1,4 @@
-
+transition(all 5s)
 
 
 /*scrol to top*/
@@ -17,7 +17,7 @@
 	text-decoration: none;
 	width: 55px;
 	z-index: 999;
-	@include transition(all 0.5s ease 0s);
+	@include transition(all 5s ease 0s);
 	i{
 		display: block;
 	}
@@ -134,7 +134,7 @@
 			  height: 60px;
 			  top: 50%;
 			  width: 70px;
-			  @include transition(all 0.5s);
+			  @include transition(all 5s);
 			  &::before{
 				color: #888;
 				}
@@ -344,7 +344,7 @@
 						color: #fff;
 						font-size: 18px;
 						margin: 0 15px;
-						@include transition(all 0.5s);
+						@include transition(all 5s);
 					}
 				}
 				.active{
@@ -400,7 +400,7 @@
 									font-size: 20px;
 									margin-bottom: 10px;
 									a{
-										@include transition(all 0.5s);
+										@include transition(all 5s);
 									}
 								}
 								.mu-menu-price{
@@ -527,7 +527,7 @@
 						width: 20px;
 						display: inline-block;
 						float: none;
-						@include transition(all 0.5s);
+						@include transition(all 5s);
 						button{
 							display: none;
 						}
@@ -617,14 +617,14 @@
 								padding: 23px 20px;
 								text-align: center;
 								opacity: 0;
-								@include transition(all 0.5s);
+								@include transition(all 5s);
 								a{
 									display: inline-block;
 									margin: 0 5px;
 									padding: 5px;
 									text-align: center;
 									width: 35px;
-									@include transition(all 0.5s);
+									@include transition(all 5s);
 									&:hover,
 									&:focus{
 										color: #fff;
@@ -642,7 +642,7 @@
 						width: 20px;
 						display: inline-block;
 						float: none;
-						@include transition(all 0.5s);
+						@include transition(all 5s);
 						button{
 							display: none;
 						}
@@ -690,7 +690,7 @@
 		padding: 0 15px;
 		text-align: center;
 		a{
-			@include transition(all 0.5s);
+			@include transition(all 5s);
 		}
 	}
 	.mu-news-img{
@@ -828,7 +828,7 @@
 					a{
 						display: inline-block;
 						padding: 5px 10px;
-						@include transition(all 0.5s);
+						@include transition(all 5s);
 					}
 				}
 			}
@@ -869,7 +869,7 @@
 							letter-spacing: 0.5px;
 							display: block;
 							padding: 10px 5px;
-							@include transition(all 0.5s);
+							@include transition(all 5s);
 						}
 					}
 				}
@@ -899,7 +899,7 @@
 						letter-spacing: 0.5px;
 						margin-bottom: 5px;
 						padding: 5px;
-						@include transition(all 0.5s);
+						@include transition(all 5s);
 					}
 				}
 				.mu-sidebar-add{
@@ -919,7 +919,7 @@
 			font-size: 28px;
 			padding: 15px 20px;
 			a{
-				@include transition(all 0.5s);
+				@include transition(all 5s);
 			}
 		}
 		.mu-news-single-content{
@@ -977,7 +977,7 @@
 						a{
 							display: inline-block;
 							padding: 5px;
-							@include transition(all 0.5s);
+							@include transition(all 5s);
 						}
 					}
 				}
@@ -997,7 +997,7 @@
 							color: #888;
 							display: inline-block;
 							padding: 5px 8px;
-							@include transition(all 0.5s);
+							@include transition(all 5s);
 						}
 					}
 				}
@@ -1019,7 +1019,7 @@
 		font-size: 25px;
 		font-weight: normal;
 		padding: 10px 20px;
-		@include transition(all 0.5s);
+		@include transition(all 5s);
 		&:hover,
 		&:focus{
 			background-color: #fff;
@@ -1097,7 +1097,7 @@
 					position: absolute;
 					right: 10px;
 					top: 10px;
-					@include transition(all 0.5s);
+					@include transition(all 5s);
 					&:hover,
 					&:focus{
 						text-decoration: none;
@@ -1144,7 +1144,7 @@
 			padding: 5px;
 			text-align: center;
 			width: 25px;
-			@include transition(all 0.5s);
+			@include transition(all 5s);
 			&:hover,
 			&:focus{
 				background-color: transparent;
@@ -1185,7 +1185,7 @@
 		height: 35px;
 		padding: 5px;
 		width: 65%;
-		@include transition(all 0.5s);
+		@include transition(all 5s);
 	}
 
 	textarea {
@@ -1195,7 +1195,7 @@
 		padding: 10px;
 		height: 200px;
 		width: 100%;
-	 	@include transition(all 0.5s);
+	 	@include transition(all 5s);
 	}
 }
 
